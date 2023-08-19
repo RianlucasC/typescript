@@ -1,18 +1,7 @@
 "use strict";
-let produto = "Uma string";
-let preco = 1;
-const carro = {
-    marca: "audi",
-    preco: 75000,
-    disponivel: true,
-};
-const barato = preco < 400 ? true : "produto caro";
-function somar(a, b) {
-    return a + b;
+let total = 400;
+total = "palavra";
+function isNuber(value) {
+    return typeof value === "number";
 }
-somar(1, 1);
-/*
-somar('3',2);
-carro.marca = 10;
-produto = 10;
-*/
+console.log(isNuber(100));
